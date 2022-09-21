@@ -10,6 +10,8 @@ Brief information about this Project:
 
 - This app is made for fun there is no such luck factor.You have work hard for your every task to succeed.
 
+- project lick : https://lucky-age.netlify.app/
+
   **Note: An Absolute beginner made this app**
 
 ## Languages Used:
