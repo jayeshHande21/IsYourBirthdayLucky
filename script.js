@@ -17,8 +17,11 @@ function compare(sum, luckynumber) {
 function isbirthdaylucky() {
   const dob = date.value;
   const sum = calculateSum(dob);
-  if (luckyNumber.value && dob) compare(sum, luckyNumber.value);
-  else output.innerText = "Plese enter a valid data 😡😡";
+  if (luckyNumber.value > 0 && dob) {
+    compare(sum, luckyNumber.value);
+  } else
+    output.innerText =
+      "Plese enter a valid data and number must be greater than zero";
 }
 
 function calculateSum(dob) {
